@@ -1,3 +1,4 @@
+
 #nav-menu{
     display: flex;
     align-items: center;
@@ -5,7 +6,7 @@
     background-color: rgb(102,0,153);
     padding: 10px;
     color: white;
-    width: 98%;
+    width: 100%;
     margin: auto;
     position: fixed;
     z-index: 4;
@@ -207,4 +208,213 @@ a{
     background-color: rgb(102,0,153);
     height: 50px;
     margin-top: 30px;
+    width: 100%;
 }
+
+
+/* --------------------------------------------------------------------------------Responisve ------------------------------------------------------------------------ */
+@media screen and (max-width: 1080px) {
+    .nav__menu {
+     display: none;
+    }
+    .nav__list{
+        position: absolute;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        background-color: black;
+        padding: 30px;
+        width: 30%;
+        right: 80px;
+        height: fit-content;
+    }
+    #nav-toggle{
+        display: block;
+        font-size: 35px;
+       padding-right: 50px;
+    }
+    #nav-menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    #nav-menu a{
+        font-size:30px;
+    }
+    .home__data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #sec{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .git_three_stats{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #git img{
+        width:400px;
+    }
+    #trophy img{
+        width:100%;
+        margin: auto;
+    }
+    #git,#home,#skills,#about,#contact,#projects{
+        width: 100%;
+        margin: auto;
+    }
+    .main{
+        margin-top: 20%;
+     }
+     .home-img{
+        width: 300px;
+       margin-left: 40%;
+     }
+     .skills-card{
+        width: 80%;
+        margin: auto;
+        padding-left: 20px;
+     }
+     .skills-card img{
+        height: 40px;
+     }
+     .skills-card-name{
+        font-size: 30px;
+     }
+     .project-description{
+        font-size: 30px;
+     }
+     .project-btns{
+        font-size: 30px;
+     }
+     .project-title{
+        font-size: 40px;
+     }
+     .project-card img{
+        height: fit-content;
+     }
+   .project-card{
+    width: 100%;
+   }
+   .footer-social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .footer-social i{
+    font-size: 30px;
+   }
+   #contact{
+    text-align: center;
+   }
+   #end{
+   display: none;
+   }
+
+
+  }
+  
+  @media screen and (max-width: 550px) {
+    .nav__menu {
+     display: none;
+    }
+    .nav__list{
+        position: absolute;
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        background-color: black;
+        padding: 30px;
+        width: 50%;
+        right: 80px;
+        height: fit-content;
+    }
+    #nav-toggle{
+        display: block;
+        font-size: 35px;
+       padding-right: 45px;
+    }
+    .home-img{
+        width:200px;
+    }
+    #nav-menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    #nav-menu a{
+        font-size:30px;
+    }
+    .home__data{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #sec{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .git_three_stats{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #git img{
+        width:400px;
+    }
+    #trophy img{
+        width:100%;
+        margin: auto;
+    }
+    #git,#home,#skills,#about,#contact,#projects{
+        width: 100%;
+        margin: auto;
+    }
+    .main{
+        margin-top: 40%;
+     }
+    #contact,#home{
+        margin-left: 4%;
+    }
+     .skills-card{
+        width: 80%;
+        margin: auto;
+        padding-left: 20px;
+     }
+     .skills-card img{
+        height: 40px;
+     }
+     .skills-card-name{
+        font-size: 30px;
+     }
+     .project-description{
+        font-size: 30px;
+     }
+     .project-btns{
+        font-size: 30px;
+     }
+     .project-title{
+        font-size: 40px;
+     }
+     .project-card img{
+        height: fit-content;
+     }
+   .project-card{
+    width: 100%;
+   }
+   .footer-social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   }
+   .footer-social i{
+    font-size: 30px;
+   }
+   #contact{
+    text-align: center;
+   }
+   #end{
+   display: none;
+   }
+  }
+  
+  
