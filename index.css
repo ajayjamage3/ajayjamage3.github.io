@@ -227,6 +227,7 @@ a{
         width: 30%;
         right: 80px;
         height: fit-content;
+        top: 35px;
     }
     #nav-toggle{
         display: block;
