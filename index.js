@@ -31,9 +31,4 @@ document.querySelector(".nav__list").addEventListener("mouseover",()=>{
 
 })
 
-document.querySelector(".nav__list").addEventListener("mouseout",()=>{
-
-document.querySelector(".nav__menu").style.display = "none"
-
-})
 
