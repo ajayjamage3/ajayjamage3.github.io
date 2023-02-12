@@ -13,22 +13,6 @@ document.querySelector("#nav-toggle").addEventListener("click",()=>{
     }
    
 })
-document.querySelector("#nav-toggle").addEventListener("mouseover",()=>{
 
-        document.querySelector(".nav__menu").style.display = "block"
-    
-})
-
-document.querySelector("#nav-toggle").addEventListener("mouseout",()=>{
-
-    document.querySelector(".nav__menu").style.display = "none"
-
-})
-
-document.querySelector(".nav__list").addEventListener("mouseover",()=>{
-
-    document.querySelector(".nav__menu").style.display = "block"
-
-})
 
 
