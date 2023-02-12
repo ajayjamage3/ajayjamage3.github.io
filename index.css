@@ -35,6 +35,11 @@ a{
    background-color: rgb(16,13,48);
    border-radius: 10px;
 }
+#resume-link-1{
+    padding: 10px 1px 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(102,0,153);
+}
 #contact-linkedin{
     color:white;
     font-size: 30px;
@@ -43,14 +48,7 @@ a{
     color:white;
     font-size: 30px;
 }
-#resume-button-2{
-    background-color: rgb(102,0,153);
-    border: none;
-    color: white;
-    padding: 10px 15px 10px 15px;
-    border-radius: 5px;
-    margin-top: 50px;
-}
+
 .home-img{
     width: 80%;
     border: 5px solid rgb(102,0,153);
