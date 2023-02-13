@@ -23,64 +23,63 @@
        
 </head>
 
-<body>
-    <!--------------------------------------------------------------- Header ------------------------------------------------------------------------>
-    <header class="header">
-        <nav id="nav-menu" class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">
-                    <div class="logo"><a href="#">Ajay <span>Jamage</span></a></div>
-                </a>
-            </div>
+   <!--------------------------------------------------------------- Header ------------------------------------------------------------------------>
+<header class="header">
+    <nav id="nav-menu" class="nav bd-grid">
+        <div>
+            <a href="#" class="nav__logo">
+                <div class="logo"><a href="#">Ajay <span>Jamage</span></a></div>
+            </a>
+        </div>
 
-            <div class="nav__menu" id="nav-menu1">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav-link home active">
-                            <i class="fa fa-home"></i></i>Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav-link about">
-                            <i class="fa fa-user"></i> About
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav-link skills">
-                            <i class="uil uil-file-alt nav_icon"></i>Skills
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#projects" class="nav-link projects">
-                            <i class="fa fa-briefcase"></i> Projects
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav-link contact">
-                            <i class="fa fa-phone"></i> Contact
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="/Ajay_Jamage_Resume.pdf" id="resume-link-1" class="nav__link nav-link resume"
+        <div class="nav__menu" id="nav-menu1">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav-link home active">
+                        <i class="fa fa-home"></i></i>Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav-link about">
+                        <i class="fa fa-user"></i> About
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#skills" class="nav-link skills">
+                        <i class="fa fa-file"></i> Skills
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#projects" class="nav-link projects">
+                        <i class="fa fa-briefcase"></i> Projects
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav-link contact">
+                        <i class="fa fa-phone"></i> Contact
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a href="/Ajay_Jamage_Resume.pdf" id="resume-link-1" class="nav__link nav-link resume"
+                        download="Ajay_Jamage_Resume"
+                        onclick="window.open('https://drive.google.com/file/d/1vE8rt6JcSB2VhUwM5CPcH7GPePcVIwPm/view?usp=share_link')">
+                        <i class="fa fa-download"></i> Resume
+                        <button id="resume-button-1" style="width: 0%; background-color: inherit; border: 0;"
                             download="Ajay_Jamage_Resume"
-                            onclick="window.open('https://drive.google.com/file/d/1vE8rt6JcSB2VhUwM5CPcH7GPePcVIwPm/view?usp=share_link')">
-                            <i class="fa fa-download"></i> Resume
-                            <button id="resume-button-1" style="width: 0%; background-color: inherit; border: 0;"
-                                download="Ajay_Jamage_Resume"
-                                onclick="window.open('https://drive.google.com/file/d/1vE8rt6JcSB2VhUwM5CPcH7GPePcVIwPm/view?usp=share_link')"></button>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                            onclick="window.open('https://drive.google.com/file/d/1vE8rt6JcSB2VhUwM5CPcH7GPePcVIwPm/view?usp=share_link')"></button>
+                    </a>
+                </li>
+            </ul>
+        </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
-            </div>
-        </nav>
-    </header>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+        </div>
+    </nav>
+</header>
 
+<body>
     <div class="main">
         <!--------------------------------------------------------------- Home ------------------------------------------------------------------------>
-
         <section id="home">
             <div class="home__data">
                 <h1 id="user-detail-name" class="home__title" style="color: white;">
@@ -106,8 +105,8 @@
                 <a id="contact-linkedin" href="https://www.linkedin.com/in/ajay-jamage-92b1b71b4/" class ="home__social-icon"><i class="bx bxl-linkedin"></i></a>
                 <a id="contact-github" href="https://github.com/ajayjamage3" class="home__social-icon"><i class="bx bxl-github"></i></a>
             </div>
-        </section>
 
+        </section>
         <!--------------------------------------------------------------- About ------------------------------------------------------------------------>
 
         <section class="about section" id="about">
@@ -118,14 +117,12 @@
             <div class="about-container bd-grid">
 
                 <div id="user-detail-intro">
-                    <div id="intro"></div>
                     <p class="about-text">An enthusiastic Full-stack Developer, skilled in NEM.
                         Developing websites using JavaScript, Node.js,
                         Express.js, MongoDB. An optimistic man, always
                         ready to take a critical decision, ready to work
                         under pressure. Always ready to try some new
                         things for optimization.</p>
-                    <br />
                 </div>
             </div>
         </section>
@@ -243,7 +240,7 @@
             <div id="project-container">
                 <div class="project-card">
                     <img src="/HHH.png" alt="" />
-                    <p class="project-title">Happy Holiday Homes</p>
+                    <p class="project-title" style="color: black;font-size: larger;">Happy Holiday Homes</p>
                     <div class="project-description">
                         Happy Holiday Homes is a booking website where user can rent or book homes and villas for vacations.
                         <br>
@@ -263,16 +260,16 @@
                 </div>
                 <div class="project-card">
                     <img src="/beautify.png" alt="" />
-                    <p class="project-title">Beautify</p>
+                    <p class="project-title" style="color:rgb(252,39,121);font-size: larger;">Beautify</p>
                     <div class="project-description">
                         Beautify is an e-commerce website where users can buy cosmetics.
                         <br> 
-                       <span>Areas of responsibility : </span> <br>
-                        Implemented navigation bar and footer.<br>
-                        Created category page.<br>
-                        Added sorting functionality.<br>
-                        Responsible for linking pages and making website
-                        responsive.
+                       <span  style="color:rgb(252,39,121);font-size: larger;">Areas of responsibility : </span> <br>
+                         Implemented navigation bar and footer.<br>
+                         Created category page.<br>
+                         Added sorting functionality.<br>
+                         Responsible for linking pages and making website
+                         responsive.
                         <br>
                         A collaborative project built by a team of 5 in 5 days.
                       <div class="project-tech-stack"><br />HTML | CSS | Javascript | Github</div>
@@ -290,7 +287,7 @@
                 </div>
                 <div class="project-card">
                     <img src="/clickdeal.png" alt="" />
-                    <p class="project-title">Clickdeal</p>
+                    <p class="project-title" style="color:rgb(228,0,70);font-size: larger;">Clickdeal</p>
                     <div class="project-description">
                         Clickdeal is an e-commerce website where users can buy a variety of products.
                         <br>

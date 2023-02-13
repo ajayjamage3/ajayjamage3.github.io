@@ -1,7 +1,7 @@
 var typing=new Typed(".text", {
-    strings: ["FULL-STACK", "WEB", "DEVELOPER"],
+    strings: ["","Full-Stack", "Web", "Deveolper"],
     typeSpeed: 200,
-    backSpeed: 100  ,
+    backSpeed: 200  ,
     loop: true,
 });
 
