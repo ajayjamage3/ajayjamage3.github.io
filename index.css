@@ -263,7 +263,7 @@ a{
         width:400px;
     }
     #trophy img{
-        width:100%;
+        width:400px;
         margin: auto;
     }
     #git,#home,#skills,#about,#contact,#projects{
@@ -421,6 +421,11 @@ a{
    #end{
    display: none;
    }
+   .project-btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
   }
   
   
