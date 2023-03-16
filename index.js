@@ -14,5 +14,7 @@ document.querySelector("#nav-toggle").addEventListener("click",()=>{
    
 })
 
-
+document.querySelector("#resume-button-1").addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1vE8rt6JcSB2VhUwM5CPcH7GPePcVIwPm/view?usp=share_link")
+})
 
