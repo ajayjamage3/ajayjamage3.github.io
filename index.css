@@ -27,7 +27,7 @@ a{
     color: white;
 }
 #body{
-   margin-top: 6%;
+   margin-top: 10%;
 }
 #home{
     width: 80%;
@@ -471,4 +471,8 @@ a{
 }
   }
   
-  
+  @media screen and (max-width: 380px) {
+    .home-img{
+        width:130px;
+    }
+  }
