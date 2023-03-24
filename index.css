@@ -350,10 +350,11 @@ a{
         flex-direction: column;
         background-color: black;
         padding: 30px;
-        width: 50%;
+        width: 40%;
         right: 80px;
         height: fit-content;
-    }
+        
+        }
     #nav-toggle{
         display: block;
         font-size: 35px;
@@ -367,9 +368,12 @@ a{
         justify-content: space-between;
         padding: 30px;
     }
-    #nav-menu a{
-        font-size:30px;
-    }
+   #nav-menu a{
+    font-size: larger;
+   }
+   #logo1 a{
+    font-size: 25px;
+   }
     .home__data{
         display: grid;
         grid-template-columns: repeat(1,1fr);
