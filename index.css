@@ -170,7 +170,6 @@ a{
     padding: 30px;
 }
 #project-container img{
-    border: 5px solid rgb(102,0,153);
     width: 80%;
     border-radius: 5px;
     transition: transform 2s;
@@ -473,10 +472,25 @@ a{
 #contact i{
     font-size: medium;
 }
+
+.project-card{
+    margin-left: -12%;
+    width: 100%;
+}
   }
   
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 450px) {
     .home-img{
         width:130px;
+    }
+    .project-card{
+        margin-left: -15%;
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 360px) {
+    .project-card{
+        margin-left: -20%;
     }
   }
