@@ -487,10 +487,16 @@ a{
         margin-left: -15%;
         width: 100%;
     }
+    .skills-card img{
+        height: 30px;
+     }
   }
 
   @media screen and (max-width: 360px) {
     .project-card{
         margin-left: -20%;
     }
+    .skills-card img{
+        height: 25px;
+     }
   }
