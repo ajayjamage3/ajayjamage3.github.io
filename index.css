@@ -345,7 +345,7 @@ a{
      }
   }
   
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 540px) {
   
     .nav__menu {
      display: none;
@@ -482,7 +482,7 @@ a{
 }
 
 .project-card{
-    margin-left: -12%;
+    margin-left: -10%;
     width: 100%;
 }
 .about-text{
@@ -508,7 +508,7 @@ a{
 
   @media screen and (max-width: 360px) {
     .project-card{
-        margin-left: -20%;
+        margin-left: -19%;
     }
     .skills-card img{
         height: 25px;
@@ -517,3 +517,4 @@ a{
         width: 100%;
      }
   }
+  
