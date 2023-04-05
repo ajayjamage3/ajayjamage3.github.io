@@ -75,10 +75,9 @@ a{
 }
 .about-text{
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
     width: 80%;
     margin: auto;
-    text-align: justify;
 }
 .section-title{
     font-size: 30px;
@@ -337,6 +336,13 @@ a{
     .project-btns{
       font-size: medium;
     }
+    .about-text{
+        width: 100%;
+     }
+     .project-card{
+        width: 100%;
+        margin-left: -5%;
+     }
   }
   
   @media screen and (max-width: 550px) {
@@ -479,6 +485,9 @@ a{
     margin-left: -12%;
     width: 100%;
 }
+.about-text{
+    width: 100%;
+ }
   }
   
   @media screen and (max-width: 450px) {
@@ -492,6 +501,9 @@ a{
     .skills-card img{
         height: 30px;
      }
+     .about-text{
+        width: 100%;
+     }
   }
 
   @media screen and (max-width: 360px) {
@@ -500,5 +512,8 @@ a{
     }
     .skills-card img{
         height: 25px;
+     }
+     .about-text{
+        width: 100%;
      }
   }
