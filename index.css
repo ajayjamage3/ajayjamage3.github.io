@@ -216,7 +216,19 @@ a{
     width: 100%;
     left: -10px;
 }
-
+#myStats{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  justify-content: space-evenly;
+}
+#myStats h1{
+   color: blueviolet;
+}
+#myStats p{
+    font-size: medium;
+ }
+ 
 
 /* --------------------------------------------------------------------------------Responisve ------------------------------------------------------------------------ */
 @media screen and (max-width: 940px) {
@@ -400,7 +412,7 @@ a{
         width:100%;
         margin: auto;
     }
-    #git,#skills,#about,#projects{
+    #git,#skills,#projects{
         width: 80%;
         margin: auto;
         border-bottom: 2px solid black;
@@ -515,6 +527,16 @@ a{
      }
      .about-text{
         width: 100%;
+     }
+     #myStats{
+        gap: 10px;
+    }
+    #myStats h1{
+        font-size: larger;
+       color: blueviolet;
+    }
+    #myStats p{
+        font-size: medium;
      }
   }
   
