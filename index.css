@@ -228,13 +228,24 @@ a{
 #myStats p{
     font-size: medium;
  }
- 
+ .project-description{
+    width: 50%;
+    margin: auto;
+ }
+ .project-tech-stack{
+    text-align: center;
+ }
+
 
 /* --------------------------------------------------------------------------------Responisve ------------------------------------------------------------------------ */
 @media screen and (max-width: 940px) {
     .nav__menu {
      display: none;
     }
+    .project-description{
+        width: 60%;
+        margin: auto;
+     }
     .nav__list{
         position: absolute;
         display: flex;
@@ -283,7 +294,6 @@ a{
         width: 80%;
         margin: auto;
         border-bottom: 2px solid black;
-
     }
     .main{
         margin-top: 20%;
@@ -293,12 +303,12 @@ a{
        margin-left: 40%;
      }
      .skills-card{
-        width: 80%;
+        width: 70%;
         margin: auto;
         padding-left: 20px;
      }
      .skills-card img{
-        height: 40px;
+        height: 50px;
      }
      .skills-card-name{
         font-size: 30px;
@@ -451,6 +461,11 @@ a{
      .project-card img{
         height: fit-content;
      }
+     .project-description{
+        width: 100%;
+       
+        margin: auto;
+     }
    .project-card{
     width: 80%;
     margin: auto;
@@ -540,3 +555,24 @@ a{
      }
   }
   
+
+ 
+/* @media (prefers-color-scheme: dark) {
+    #about,#skills,#git,#projects{
+    color: white;
+    border-radius: 10px;
+}
+#skills,#projects,#home{
+    background-color: #543864;
+    color: white;
+    border-radius: 10px;
+}
+.skills-card{
+    background-color: white;
+    color: black;
+}
+body{
+    background-color:#1A1A40
+}
+  }
+   */
